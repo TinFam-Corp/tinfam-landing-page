@@ -24,8 +24,9 @@ const CauseSection = (props) => {
                 </div>
                 <div className="wpo-campaign-wrap">
                     <div className="row">
-                    {Causes.slice(0, 3).map((Cause, citem) => (
+                    {Causes.map((Cause, citem) => (
                         <div className="col-lg-4 col-md-6 col-12" key={citem}>
+                            {/*thêm css để giới hạn title của project (title dài quá thì tự giảm size chữ? để cố định size của box)*/}
                             <div className="wpo-campaign-single">
                                 <div className="wpo-campaign-item">
                                     <div className="wpo-campaign-img">

@@ -32,6 +32,12 @@ import wpimgSingle3 from '../images/cause-single/12.jpg'
 
 import author from '../images/campaign/1.png'
 
+const description = 'Được thành lập từ tháng 10 năm 2018 bởi các bạn trẻ thế hệ 9X có đam mê nông nghiệp, đã từng có thời gian trải nghiệm, học tập và làm việc tại Israel và mong muốn triển khai mô hình nông nghiệp theo kiểu hiện đại, áp dụng KHKT tại VN nhằm tận dụng  những lợi thế về thiên nhiên để phát triển nền nông nghiệp nước nhà, nâng cao giá trị nông sản, giải quyết việc làm cho lao động nông thôn. Với mục tiêu trở thành trang trại quy mô, hiện đại bậc nhất cả nước, Moshav Farm đã không ngừng nỗ lực để nâng cao hiệu quả hoạt động. Từ 04 nhân sự chủ chốt ban đầu đã tăng lên tới 20 người sau 2 năm hoạt động, dự kiến sẽ phát triển và IPO vào năm 2025 hoặc sớm hơn.'
+
+const headline = 'Trở thành doanh nghiệp dẫn đầu về nông nghiệp theo hướng hiện đại, là nơi nghỉ dưỡng, trải nghiệm, học tập về cách làm nông nghiệp kiểu mới với nhiều mô hình đa dạng'
+
+const team = 'Các thành viên sáng lập đều tốt nghiệp từ những trường đại học hàng đầu Việt Nam. Sau đó được đi đào tạo từ cái nôi nông nghiệp Israel. Tiếng Anh lưu loát, thể lực sung mãn, đầu óc tính toán và triển khai quyết liệt, ham làm, ham lao động. Ngồi với nhau toàn nghĩ ra việc để triển, và bắt tay vô triển. Dấu ấn Israel rõ nét nhất trong nông nghiệp nước ta, với tư duy Do Thái ngay trên đất Việt. Ban đầu triển khai vào đầu năm 2018, không ai tin là vùng đất khô cằn “trồng mía mà còn mất mùa” trở thành 1 nơi hoa thơm trái ngọt, xanh tươi lộng lẫy như bây giờ. Tất cả đều là bàn tay và ý chí con người mà tạo ra cả các bạn ạ. Làm, có thể không thành công. Nhưng không làm, thì chắc chắn không thành công. Làm thì có thể sai, chỉ không làm thì không sai! Làm thì có thể mất, chỉ không làm thì không mất! Nhưng cũng không có. Và chẳng có thú vị gì, nếu lòng các bạn cứ thấy chán chán … là do các bạn không làm đấy thôi. Khi triển khai làm, việc cuốn việc, hết chán ngay, mà còn thú vị cực.'
+
 const Causes = [
     {
         id: '1',
@@ -39,11 +45,15 @@ const Causes = [
         cImgSingle:cimgSingle,
         process:'65',
         thumb:'Education',
-        cTitle: 'Help To Build a Secure Life Of a Poor Children.', 
+        cTitle: 'The Moshav Farm',
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '2',
@@ -54,8 +64,12 @@ const Causes = [
         cTitle: 'Ensure Clean Water To The African Kids.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '3',
@@ -66,8 +80,12 @@ const Causes = [
         cTitle: 'Your Help Can Save A Human Life From Death.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '4',
@@ -78,8 +96,12 @@ const Causes = [
         cTitle: 'Ensure a Secure Life Of The African Elephant.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '5',
@@ -90,8 +112,12 @@ const Causes = [
         cTitle: 'Don’t Shoot The Royel Tiger With Your Gun.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '6',
@@ -102,8 +128,12 @@ const Causes = [
         cTitle: 'Help Us To Stop Illigal Sale Of Wild Meat.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '7',
@@ -114,8 +144,12 @@ const Causes = [
         cTitle: 'Ensure a Secure Life Of The Ocean Creature.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '8',
@@ -126,8 +160,12 @@ const Causes = [
         cTitle: 'The oceans deserve our respect and care.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '9',
@@ -138,8 +176,12 @@ const Causes = [
         cTitle: 'Help Us To Stop Illigal Catching of Fish.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '10',
@@ -150,8 +192,12 @@ const Causes = [
         cTitle: 'We are Giving Vaccin in All Over The World.', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '11',
@@ -159,11 +205,15 @@ const Causes = [
         cImgSingle:wpimgSingle2,
         process:'75',
         thumb:'Medical',
-        cTitle: 'Ensuring Physical Treatment in Many Countyies.', 
+        cTitle: 'Ensuring Physical Treatment in Many Countries.',
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
     {
         id: '12',
@@ -174,12 +224,15 @@ const Causes = [
         cTitle: 'Cullecting Sample and Testing in Laboratory', 
         Goal:'3,000.00',
         Raised:'2,000.00',
+        Donar: 38,
         authorImg:author,
         authorName:'Laura Faiary',
+        description: description,
+        headline: headline,
+        team: team,
     },
 ]
 
 // thêm 1 function tự động tính process (raised/goal) cho từng cause
-// thêm phần detailed info cho mỗi dự án
 
 export default Causes;
