@@ -95,7 +95,7 @@ const CauseTabs = (props) => {
                                         </div>
                                         <div className="case-bb-text">
                                             <h3> Tầm Nhìn </h3>
-                                            <p>{CauseDetails.headline}</p>
+                                            <p> {CauseDetails.headline} </p>
                                             <h3> Đội Ngũ Sáng Lập </h3>
                                             <p> {CauseDetails.team} </p>
                                         </div>

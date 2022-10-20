@@ -38,6 +38,8 @@ const headline = 'Trở thành doanh nghiệp dẫn đầu về nông nghiệp t
 
 const team = 'Các thành viên sáng lập đều tốt nghiệp từ những trường đại học hàng đầu Việt Nam. Sau đó được đi đào tạo từ cái nôi nông nghiệp Israel. Tiếng Anh lưu loát, thể lực sung mãn, đầu óc tính toán và triển khai quyết liệt, ham làm, ham lao động. Ngồi với nhau toàn nghĩ ra việc để triển, và bắt tay vô triển. Dấu ấn Israel rõ nét nhất trong nông nghiệp nước ta, với tư duy Do Thái ngay trên đất Việt. Ban đầu triển khai vào đầu năm 2018, không ai tin là vùng đất khô cằn “trồng mía mà còn mất mùa” trở thành 1 nơi hoa thơm trái ngọt, xanh tươi lộng lẫy như bây giờ. Tất cả đều là bàn tay và ý chí con người mà tạo ra cả các bạn ạ. Làm, có thể không thành công. Nhưng không làm, thì chắc chắn không thành công. Làm thì có thể sai, chỉ không làm thì không sai! Làm thì có thể mất, chỉ không làm thì không mất! Nhưng cũng không có. Và chẳng có thú vị gì, nếu lòng các bạn cứ thấy chán chán … là do các bạn không làm đấy thôi. Khi triển khai làm, việc cuốn việc, hết chán ngay, mà còn thú vị cực.'
 
+const date = '21/10/2022'
+
 const Causes = [
     {
         id: '1',
@@ -54,6 +56,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '2',
@@ -70,6 +73,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '3',
@@ -86,6 +90,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '4',
@@ -102,6 +107,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '5',
@@ -118,6 +124,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '6',
@@ -134,6 +141,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '7',
@@ -150,6 +158,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '8',
@@ -166,6 +175,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '9',
@@ -182,6 +192,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '10',
@@ -198,6 +209,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '11',
@@ -214,6 +226,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
     {
         id: '12',
@@ -230,6 +243,7 @@ const Causes = [
         description: description,
         headline: headline,
         team: team,
+        date: date,
     },
 ]
 
