@@ -7,8 +7,8 @@
 	}
 
 	span{
-		font-size: 18px;
-		font-size: calc-rem-value(18);
+		font-size: 30px;
+		font-size: calc-rem-value(30);
 		color: $theme-primary-color;
 		font-family: $heading-font;
 	}
@@ -36,8 +36,8 @@
 	}
 
 	p{
-		max-width: 580px;
-		font-size: 18px;
+		max-width: 100%;
+		font-size: 14px;
 	}
 
 }

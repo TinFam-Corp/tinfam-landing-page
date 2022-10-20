@@ -179,4 +179,7 @@ const Causes = [
     },
 ]
 
+// thêm 1 function tự động tính process (raised/goal) cho từng cause
+// thêm phần detailed info cho mỗi dự án
+
 export default Causes;

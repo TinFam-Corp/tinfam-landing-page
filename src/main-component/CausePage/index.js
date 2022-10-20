@@ -10,7 +10,7 @@ const CausePage =() => {
     return(
         <Fragment>
             <Navbar2 Logo={Logo}/>
-            <PageTitle pageTitle={'Case Stadies'} pagesub={'Resent Case Studies'}/> 
+            <PageTitle pageTitle={'Khám Phá Nông Nghiệp Với TinFam'} pagesub={'Danh Sách Dự Án'}/>
             <CauseSection/>
             <Footer/>
             <Scrollbar/>

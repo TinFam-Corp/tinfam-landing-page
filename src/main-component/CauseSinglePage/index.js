@@ -20,7 +20,7 @@ const CauseSinglePage =(props) => {
     return(
         <Fragment>
             <Navbar2 Logo={Logo}/>
-            <PageTitle pageTitle={CauseDetails.cTitle} pagesub={'Case Single'}/> 
+            <PageTitle pageTitle={CauseDetails.cTitle} pagesub={'Danh Sách Dự Án'}/>
             <div className="wpo-case-details-area section-padding">
                 <div className="container">
                     <div className="row">
