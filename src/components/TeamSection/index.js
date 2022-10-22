@@ -64,10 +64,7 @@ class TeamSection extends Component {
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
                             <div className="wpo-section-title">
-                                <span>Expert Team</span>
-                                <h2>Meet Our Volunteer Team</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form,</p>
+                                <h2>Đội ngũ đứng sau TinFam</h2>
                             </div>
                         </div>
                     </div>
@@ -80,7 +77,7 @@ class TeamSection extends Component {
                                             <img src={Team.tImg} alt=""/>
                                         </div>
                                         <div className="wpo-team-content">
-                                            <h2><Link onClick={ClickHandler} to={`/team-single/${Team.id}`}>{Team.name}</Link></h2>
+                                            <h2>{Team.name}</h2>
                                             <span>{Team.title}</span>
                                         </div>
                                     </div>
