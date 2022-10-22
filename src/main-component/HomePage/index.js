@@ -20,7 +20,7 @@ const HomePage =() => {
             <About/>
             <CtaSection cTitle={'Tham gia vào sự phát triển bền vững của nông nghiệp Việt Nam chỉ với từ 100.000 VND'}/>
             <Service Fclass={'wpo-features-section'} vclassClass={'v1'}/>
-            <SDGSection/>
+            {/*<SDGSection/>*/}
             <CauseSection/>
             <TeamSection/>
             <FAQ/>

@@ -10,8 +10,8 @@ const BlogPage =() => {
     return(
         <Fragment>
             <Navbar Logo={Logo}/>
-            <PageTitle pageTitle={'Latest News'} pagesub={'Blog'}/> 
-            <BlogList/>
+            <PageTitle pageTitle={'Coming Soon...'} pagesub={'Blog'}/> 
+            {/*<BlogList/>*/}
             <Footer/>
             <Scrollbar/>
         </Fragment>
