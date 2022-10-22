@@ -19,8 +19,8 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            <h2>Địa Chỉ</h2>
+                                            <p>VinHomes Ocean Park, Hà Nội</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -32,9 +32,8 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Email Us</h2>
-                                            <p>charitio@gmail.com</p>
-                                            <p>helloyou@gmail.com</p>
+                                            <h2>Email</h2>
+                                            <p>tinfam.contact@gmail.com</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -46,9 +45,8 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Call Now</h2>
-                                            <p>+1 800 123 456 789</p>
-                                            <p>+1 800 123 654 987</p>
+                                            <h2>Điện Thoại</h2>
+                                            <p>0382780002</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -67,7 +65,7 @@ const Contactpage = () => {
             </div> 
             <section className="wpo-contact-map-section">
                 <div className="wpo-contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.966032017984!2d105.94801761502904!3d20.99399869433978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135afa9544012bb%3A0xa9fe19d5974e27b3!2sVinhomes%20Ocean%20Park!5e0!3m2!1sen!2s!4v1666389958728!5m2!1sen!2s"></iframe>
                 </div>
             </section>
         </section>

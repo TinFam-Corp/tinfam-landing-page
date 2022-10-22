@@ -1,29 +1,40 @@
 import React from 'react'
-import {Link} from  'react-router-dom'
+import {Link} from 'react-router-dom'
 import abimg from '../../images/about.jpg'
-import shape from '../../images/ab-shape-2.png'
-
+import farm from '../../images/assets/vertical-farm.jpeg'
 
 const About = (props) => {
 
-    const ClickHandler = () =>{
+    const ClickHandler = () => {
         window.scrollTo(10, 0);
-     }
+    }
 
 
-    return(
+    return (
         <section className="wpo-about-section section-padding">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12 col-12">
+                        <div className="wpo-about-text">
+                            <span>Về TinFam</span>
+                            <h2>Empowering Agricultural Innovations by Crowdfunding</h2>
+                            <p>Các chủ doanh nghiệp/trang trại luôn luôn phải chịu những rủi ro về thời tiết thất thường hay biến động giá cả thị trường.
+                                Ngoài ra, rất nhiều những doanh nghiệp nông nghiệp ngoài kia đang ngày ngày phải lo lắng về vấn đề tài chính khi mà họ không tiếp cận được nguồn vay nhà nước.</p>
+                            
+                            <h3 style={{color: "#4f555a"}}>What do we offer farms?</h3>
+                            <ul>
+                                <li>The standard chunk of Lorem Ipsum used since.</li>
+                                <li>Randomised words which don't look even slightly believable.</li>
+                                <li>Making this the first true generator on the Internet.</li>
+                            </ul>
+                            <Link onClick={ClickHandler} className="theme-btn" to="/about">Tìm Hiểu Thêm</Link>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-12 col-12">
                         <div className="wpo-about-wrap">
                             <div className="wpo-about-img">
-                                <img src={abimg} alt=""/>
-                                <div className="wpo-ab-shape-1">
-                                    <div className="s-s1"></div>
-                                    <div className="s-s2"></div>
-                                </div>
-                                <div className="wpo-ab-shape-2"><img src={shape} alt=""/></div>
+                                <img src={farm} alt=""/>
+                               
                                 <div className="wpo-total-raised">
                                     <div className="wpo-total-raised-wrap">
                                         <div className="wpo-total-raised-icon">
@@ -31,38 +42,15 @@ const About = (props) => {
                                         </div>
                                         <div className="wpo-total-raised-text">
                                             <ul>
-                                                <li>Total Raised<span>$25000</span></li>
+                                                <li>Tổng số dự án<span>100+</span></li>
                                             </ul>
-                                            <div className="progress-section">
-                                                <div className="process">
-                                                    <div className="progress">
-                                                        <div className="progress-bar">
-                                                            <div className="progress-value"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-12">
-                        <div className="wpo-about-text">
-                            <span>About Us</span>
-                            <h2>We Can Save More Lifes With Your Helping Hand.</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
-                                gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                            <ul>
-                                <li>The standard chunk of Lorem Ipsum used since.</li>
-                                <li>Randomised words which don't look even slightly believable.</li>
-                                <li>Making this the first true generator on the Internet.</li>
-                            </ul>
-                            <Link onClick={ClickHandler} className="theme-btn-s2" to="/about">More About</Link>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>

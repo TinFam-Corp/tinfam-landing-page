@@ -23,8 +23,8 @@ const BlogSection = (props) => {
                     </div>
                 </div>
                 <div className="wpo-blog-items">
-                    <div className="row">
-                        {blogs.slice(0,3).map((blog, Bitem) => (
+                    <div className="row justify-content-center">
+                        {blogs.slice(0,1).map((blog, Bitem) => (
                             <div className="col col-lg-4 col-md-6 col-12" key={Bitem}>
                                 <div className="wpo-blog-item">
                                     <div className="wpo-blog-img">

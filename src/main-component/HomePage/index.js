@@ -1,35 +1,30 @@
 import React, {Fragment} from 'react';
 import Navbar from '../../components/Navbar'
-import Hero from '../../components/hero'
 import Service from '../../components/Service'
 import About from '../../components/about'
 import CauseSection from '../../components/CauseSection'
 import TeamSection from '../../components/TeamSection'
-import Testimonial from '../../components/Testimonial'
 import CtaSection from '../../components/ctaSection'
-import EventSection from '../../components/EventSection'
 import BlogSection from '../../components/BlogSection'
 import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Logo from '../../images/logo.png'
-import PartnerSection from '../../components/PartnerSection';
-import vimg from '../../images/volunteer.png'
+import SDGSection from "../../components/SDGSection";
+import FAQ from '../../components/FAQ'
 
 
 const HomePage =() => {
     return(
         <Fragment>
             <Navbar Logo={Logo}/>
-            <Hero/>
-            <Service Fclass={'wpo-features-section-s2'} vclassClass={'v1'}/>
             <About/>
+            <CtaSection cTitle={'Tham gia vào sự phát triển bền vững của nông nghiệp Việt Nam chỉ với từ 100.000 VND'}/>
+            <Service Fclass={'wpo-features-section'} vclassClass={'v1'}/>
+            <SDGSection/>
             <CauseSection/>
             <TeamSection/>
-            <Testimonial/>
-            <CtaSection vImg={vimg} cTitle={'Lets Chenge The World With Humanity'}/>
-            <EventSection/>
+            <FAQ/>
             <BlogSection/>
-            <PartnerSection/>
             <Scrollbar/>
             <Footer/>
         </Fragment>

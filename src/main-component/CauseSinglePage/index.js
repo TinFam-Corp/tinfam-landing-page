@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import Navbar2 from '../../components/Navbar2'
+import Navbar from '../../components/Navbar'
 import PageTitle from '../../components/pagetitle'
 import Scrollbar from '../../components/scrollbar'
 import Causes from '../../api/cause'
@@ -19,8 +19,8 @@ const CauseSinglePage =(props) => {
 
     return(
         <Fragment>
-            <Navbar2 Logo={Logo}/>
-            <PageTitle pageTitle={CauseDetails.cTitle} pagesub={'Case Single'}/> 
+            <Navbar Logo={Logo}/>
+            <PageTitle pageTitle={CauseDetails.cTitle} pagesub={'Danh Sách Dự Án'}/>
             <div className="wpo-case-details-area section-padding">
                 <div className="container">
                     <div className="row">

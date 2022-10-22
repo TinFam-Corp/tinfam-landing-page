@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link}  from 'react-router-dom'
-import Logo from '../../images/logo2.png'
+import Logo from '../../images/assets/Logo 7.png'
 import Projects from '../../api/projects'
 
 const Footer = (props) =>{
@@ -17,81 +17,54 @@ const Footer = (props) =>{
                     <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                         <div className="widget about-widget">
                             <div className="logo widget-title">
-                                <img src={Logo} alt="blog"/>
+                                <img src={Logo} alt=""/>
                             </div>
-                            <p>Welcome and open yourself to your truest love this year with us! With the Release Process</p>
+                            <p>TinFam - Gọi Vốn Cộng Đồng cho Nông Nghiệp</p>
                             <ul>
                                 <li>
                                     <Link to="/">
                                         <i className="ti-facebook"></i>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link to="/">
-                                        <i className="ti-twitter-alt"></i>
-                                    </Link>
-                                </li>
+                                
                                 <li>
                                     <Link to="/">
                                         <i className="ti-instagram"></i>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link to="/">
-                                        <i className="ti-google"></i>
-                                    </Link>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>
                     <div className="col col-lg-2 col-md-6 col-sm-12 col-12">
                         <div className="widget link-widget">
                             <div className="widget-title">
-                                <h3>Services </h3>
+                                <h3>Quick Links</h3>
                             </div>
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>
-                                <li><Link onClick={ClickHandler} to="/cause">Causes</Link></li>
-                                <li><Link onClick={ClickHandler} to="/blog">Latest News</Link></li>
-                                <li><Link onClick={ClickHandler} to="/contact">Contact us</Link></li>
-                                <li><Link onClick={ClickHandler} to="/event">Events</Link></li>
+                                <li><Link onClick={ClickHandler} to="/about">Về TinFam</Link></li>
+                                <li><Link onClick={ClickHandler} to="/cause">Danh Sách Dự Án</Link></li>
+                                <li><Link onClick={ClickHandler} to="/contact">Liên Hệ</Link></li>
                             </ul>
                         </div>
                     </div>
                     <div className="col col-lg-4 col-md-6 col-sm-12 col-12">
                         <div className="widget wpo-service-link-widget">
                             <div className="widget-title">
-                                <h3>Contact </h3>
+                                <h3>Thông Tin Liên Hệ</h3>
                             </div>
                             <div className="contact-ft">
-                                <p>Would you have any enquiries.Please feel free to contuct us</p>
+                                <p>Would you have any enquiries, please feel free to contact us!</p>
                                 <ul>
-                                    <li><i className="fi flaticon-mail"></i>charitio@gmail.com</li>
-                                    <li><i className="fi flaticon-phone-call"></i>+888 (123) 869523</li>
-                                    <li><i className="fi flaticon-location"></i>New York – 1075 Firs Avenue</li>
+                                    <li><i className="fi flaticon-mail"></i>tinfam.contact@gmail.com</li>
+                                    <li><i className="fi flaticon-phone-call"></i>0382780002 - Bảo Trần</li>
+                                    <li><i className="fi flaticon-location"></i>Gia Lâm, Hà Nội, Việt Nam</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div className="widget instagram">
-                            <div className="widget-title">
-                                <h3>Projects</h3>
-                            </div>
-                            <ul className="d-flex">
-                                {Projects.slice(0,6).map((project, pitem)=>(
-                                    <li className="grid" key={pitem}>
-                                        <div className="img-holder">
-                                            <Link onClick={ClickHandler} to={`/project-single/${project.id}`}>
-                                                <img src={project.projectImg} alt=""/>
-                                            </Link>
-                                        </div>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -99,7 +72,7 @@ const Footer = (props) =>{
             <div className="container">
                 <div className="row">
                     <div className="col col-xs-12">
-                        <p className="copyright"> &copy; 2021 charitio Theme. Design By <Link to="/index">wpOcean</Link>. All Rights Reserved.</p>
+                        <p className="copyright"> &copy; 2022 TinFam, Inc. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

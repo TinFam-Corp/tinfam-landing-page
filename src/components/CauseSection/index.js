@@ -12,12 +12,10 @@ const CauseSection = (props) => {
         <div className={`wpo-campaign-area section-padding ${props.CmClass}`}>
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-lg-6">
+                    <div className="col-lg-8">
                         <div className="wpo-section-title">
-                            <span>We Love To Help Poor</span>
-                            <h2>Our Featured Campaigns</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                suffered alteration in some form,</p>
+                            <h2 className="default-bold-font">Đầu tư cùng TinFam ngay hôm nay vì sự phát triển bền vững của Việt Nam</h2>
+                            <p>Sự hỗ trợ của bạn dù chỉ với từ 100.000 VND nhưng cùng nhau chúng ta có thể tạo nên sự khác biệt, hỗ trợ thúc đẩy nền nông nghiệp Việt Nam, và góp sức vì một tương lai chúng ta đều được sử dụng các sản phẩm nông nghiệp chất lượng cao với giá cả phải chăng.</p>
                         </div>
                     </div>
                 </div>
@@ -25,6 +23,7 @@ const CauseSection = (props) => {
                     <div className="row">
                     {Causes.slice(0, 3).map((Cause, citem) => (
                         <div className="col-lg-4 col-md-6 col-12" key={citem}>
+                            {/*thêm css để giới hạn title của project (title dài quá thì tự giảm size chữ? để cố định size của box)*/}
                             <div className="wpo-campaign-single">
                                 <div className="wpo-campaign-item">
                                     <div className="wpo-campaign-img">
@@ -44,8 +43,8 @@ const CauseSection = (props) => {
                                                 </div>
                                             </div>
                                             <ul>
-                                                <li><span>Goal:</span> ${Cause.Goal}</li>
-                                                <li><span>Raised:</span> ${Cause.Raised}</li>
+                                                <li><span>Mục Tiêu:</span> ${Cause.Goal}</li>
+                                                <li><span>Vốn Đã Nhận:</span> ${Cause.Raised}</li>
                                             </ul>
                                             <div className="campaign-btn">
                                                 <ul>
@@ -53,7 +52,7 @@ const CauseSection = (props) => {
                                                         <span><img src={Cause.authorImg} alt=""/></span>
                                                         <span><Link onClick={ClickHandler} to={`/cause-single/${Cause.id}`}>{Cause.authorName}</Link></span>
                                                     </li>
-                                                    <li><Link onClick={ClickHandler} className="e-btn" to="/donate">Donate Now</Link></li>
+                                                    <li><Link onClick={ClickHandler} className="e-btn" to={`/cause-single/${Cause.id}`}>Đầu Tư Ngay</Link></li>
                                                 </ul>
                                             </div>
                                         </div>

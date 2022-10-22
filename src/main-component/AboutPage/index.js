@@ -6,25 +6,20 @@ import Footer from '../../components/footer'
 import Scrollbar from '../../components/scrollbar'
 import Logo from '../../images/logo.png'
 import Service from '../../components/Service';
-import AboutS2 from '../../components/AboutS2';
 import FunFact from '../../components/FunFact';
-import CauseSection from '../../components/CauseSection';
 import TeamSection from '../../components/TeamSection';
-import PartnerSection from '../../components/PartnerSection';
+import FAQ from '../../components/FAQ'
+
 
 
 const AboutPage =() => {
     return(
         <Fragment>
             <Navbar Logo={Logo}/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
-            <VideoSec/>
-            <Service Fclass={'wpo-features-section-s2'}/>
-            <AboutS2/>
-            <FunFact/>
-            <CauseSection/>
+            <PageTitle pageTitle={'Về TinFam'} pagesub={'About'}/> 
+            <FAQ/>
+            <Service Fclass={'wpo-features-section'} vclassClass={'v1'}/>
             <TeamSection/>
-            <PartnerSection tNone={'title-none'}/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

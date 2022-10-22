@@ -6,189 +6,29 @@ import './style.css';
 const menus = [
     {
         id: 1,
-        title: 'Home',
+        title: 'Trang Chủ',
         link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home Charity',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'Home Education',
-                link: '/home2'
-            },
-            {
-                id: 13,
-                title: 'Home Wildlife',
-                link: '/home3'
-            },
-            {
-                id: 14,
-                title: 'Home Ocean Polution',
-                link: '/home4'
-            },
-            {
-                id: 15,
-                title: 'Home World Pandemic',
-                link: '/home5'
-            },
-            {
-                id: 16,
-                title: 'Home Nature',
-                link: '/home6'
-            },
-            {
-                id: 17,
-                title: 'Home Nature S2',
-                link: '/home7'
-            },
-        ]
     },
 
     {
         id: 2,
-        title: 'Cause',
+        title: 'Danh Sách Dự Án',
         link: '/cause',
-        submenu: [
-            {
-                id: 21,
-                title: 'Cause',
-                link: '/cause'
-            },
-            {
-                id: 22,
-                title: 'Cause Single',
-                link: '/cause-single/1'
-            }
-        ]
     },
     {
         id: 4,
-        title: 'Event',
-        link: '/event',
-        submenu: [
-            {
-                id: 41,
-                title: 'Event',
-                link: '/event'
-            },
-            {
-                id: 42,
-                title: 'Event S2',
-                link: '/event-s2'
-            },
-            {
-                id: 43,
-                title: 'Event Single',
-                link: '/event-single/1'
-            }
-        ]
-    },
-
-{
-    id: 3,
-        title: 'Pages',
-        link: '/',
-        submenu: [
-            {
-                id: 31,
-                title: 'About',
-                link: '/about'
-            },
-            {
-                id: 32,
-                title: 'Service',
-                link: '/service'
-            },
-            {
-                id: 33,
-                title: 'Service Single',
-                link: '/service-single/1'
-            },
-            {
-                id: 37,
-                title: 'Project',
-                link: '/project'
-            },
-            {
-                id: 38,
-                title: 'Project Single',
-                link: '/project-single/1'
-            },
-            {
-                id: 39,
-                title: 'Donate',
-                link: '/donate'
-            },
-            {
-                id: 391,
-                title: 'Volunteer',
-                link: '/volunteer'
-            },
-            {
-                id: 392,
-                title: 'Testimonial',
-                link: '/testimonial'
-            },
-            {
-                id: 34,
-                title: '404 Error',
-                link: '/404'
-            },
-            {
-                id: 35,
-                title: 'Login',
-                link: '/login'
-            },
-            {
-                id: 36,
-                title: 'Register',
-                link: '/register'
-            },
-        ]
-    },
-    {
-        id: 5,
         title: 'Blog',
         link: '/blog',
-        submenu: [
-            {
-                id: 51,
-                title: 'Blog',
-                link: '/blog'
-            },
-            {
-                id: 52,
-                title: 'Blog Left sidebar',
-                link: '/blog-left'
-            },
-            {
-                id: 53,
-                title: 'Blog full width',
-                link: '/blog-fullwidth'
-            },
-            {
-                id: 54,
-                title: 'Blog single',
-                link: '/blog-single/1'
-            },
-            {
-                id: 55,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-left-sidebar/1'
-            },
-            {
-                id: 56,
-                title: 'Blog single Left sidebar',
-                link: '/blog-single-fullwidth/1'
-            },
-        ]
+    },
+
+    {
+    id: 3,
+        title: 'Về Chúng Tôi',
+        link: '/about',
     },
     {
-        id: 88,
-        title: 'Contact',
+        id: 4,
+        title: 'Liên Hệ',
         link: '/contact',
     }
     
