@@ -16,7 +16,7 @@ const AboutPage =() => {
     return(
         <Fragment>
             <Navbar Logo={Logo}/>
-            <PageTitle pageTitle={'Về TinFam'} pagesub={'About'}/> 
+            <PageTitle pageTitle={'Về TinFam abcdef'} pagesub={'About'}/> 
             <FAQ/>
             <Service Fclass={'wpo-features-section'} vclassClass={'v1'}/>
             <TeamSection/>
