@@ -27,7 +27,7 @@
     "react-toastify": "^6.0.8",
     "reactjs-countdown": "0.0.8",
     "reactstrap": "^8.9.0",
-    "sass": "^1.55.0",
+    "sass": "^1.56.1",
     "simple-react-validator": "^1.5.0",
     "slick-carousel": "^1.8.1"
   },

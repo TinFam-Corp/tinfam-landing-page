@@ -71,7 +71,7 @@ export default class Header extends Component {
                                 <div className="col-lg-3 col-md-2 col-2">
                                     <div className="header-right">
                                         <div className="close-form">
-                                            <Link onClick={ClickHandler} className="theme-btn" to="/contact">Liên hệ</Link>
+                                            <a href="https://forms.gle/ggVsdwyXqxzuzYHp6" className="theme-btn">Liên hệ</a>
                                         </div>
                                     </div>
                                 </div>

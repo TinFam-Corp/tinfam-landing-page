@@ -44,7 +44,7 @@ const Footer = (props) =>{
                             <ul>
                                 <li><Link onClick={ClickHandler} to="/about">Về TinFam</Link></li>
                                 <li><Link onClick={ClickHandler} to="/cause">Danh Sách Dự Án</Link></li>
-                                <li><Link onClick={ClickHandler} to="/contact">Liên Hệ</Link></li>
+                                <li><a href="https://forms.gle/ggVsdwyXqxzuzYHp6">Liên hệ</a></li>
                             </ul>
                         </div>
                     </div>
